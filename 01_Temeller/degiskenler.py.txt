@@ -1,0 +1,29 @@
+# degiskenler.py
+# Bu dosyada Python'da değişken tanımlama ve kullanımı örnekleri bulunur.
+
+# Değişken tanımlama
+isim = "Fatmagül"
+yas = 21
+universite = "Fırat Üniversitesi"
+
+# Değişkenleri ekrana yazdırma
+print("İsim:", isim)
+print("Yaş:", yas)
+print("Üniversite:", universite)
+
+# Bir değişkenin tipini görmek için type() fonksiyonu
+print("isim değişkeninin tipi:", type(isim))
+print("yas değişkeninin tipi:", type(yas))
+
+# Değişkenin değerini değiştirme
+yas = yas + 1
+print("Güncellenmiş yaş:", yas)
+
+# Aynı satırda birden fazla değişken tanımlama
+a, b, c = 5, 10, 15
+print("a =", a, "b =", b, "c =", c)
+
+# Sabit gibi kullanılmak istenen değerler (genelde büyük harflerle yazılır)
+PI = 3.14159
+print("Pi sayısı:", PI)
+
