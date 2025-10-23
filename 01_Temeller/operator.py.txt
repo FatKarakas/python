@@ -1,0 +1,31 @@
+# operatorler.py
+# Bu dosyada Python'daki temel operatörler örneklenmiştir.
+
+# Aritmetik operatörler
+a = 10
+b = 3
+print("Toplama:", a + b)
+print("Çıkarma:", a - b)
+print("Çarpma:", a * b)
+print("Bölme:", a / b)
+print("Tam sayı bölme:", a // b)
+print("Mod (kalan):", a % b)
+print("Üs alma:", a ** b)
+
+# Karşılaştırma operatörleri
+print("a eşit mi b’ye?", a == b)
+print("a büyük mü b’den?", a > b)
+print("a küçük mü b’den?", a < b)
+print("a eşit değil mi b’ye?", a != b)
+
+# Mantıksal operatörler
+x = True
+y = False
+print("x ve y:", x and y)
+print("x veya y:", x or y)
+print("değil x:", not x)
+
+# Atama operatörleri
+c = 5
+c += 2  # c = c + 2
+print("c’nin yeni değeri:", c)
