@@ -1,0 +1,34 @@
+# veri_tipleri.py
+# Bu dosyada Python’daki temel veri tipleri örneklerle gösterilmiştir.
+
+# Sayısal tipler
+tam_sayi = 42          # int
+ondalik_sayi = 3.14    # float
+karmaşık_sayi = 2 + 3j # complex
+
+# Metinsel tip
+metin = "Python öğreniyorum"
+
+# Mantıksal tip (bool)
+dogru_mu = True
+yanlis_mi = False
+
+# type() fonksiyonu ile veri tiplerini kontrol edelim
+print(type(tam_sayi))
+print(type(ondalik_sayi))
+print(type(karmaşık_sayi))
+print(type(metin))
+print(type(dogru_mu))
+
+# String birleştirme (concatenation)
+isim = "Fatmagül"
+soyisim = "Karakaş"
+tam_isim = isim + " " + soyisim
+print("Tam isim:", tam_isim)
+
+# Sayıdan string’e dönüşüm
+yas = 21
+print("Ben " + str(yas) + " yaşındayım.")
+
+# String uzunluğu bulma
+print("Metnin uzunluğu:", len(metin))
