@@ -1,0 +1,18 @@
+day = int(input("Gün numarasini gir (1-7): "))
+match day:
+  case 1:
+    print("PAZARTESİ")
+  case 2:
+    print("SALİ")
+  case 3:
+    print("CARSAMBA")
+  case 4:
+    print("PERSEMBE")
+  case 5:
+    print("CUMA")
+  case 6:
+    print("CUMARTESİ")
+  case 7:
+    print("PAZAR") 
+  case _:
+    print("Geçersiz gün numarasi!")
