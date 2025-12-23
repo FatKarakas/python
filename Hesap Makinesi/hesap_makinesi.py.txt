@@ -1,0 +1,18 @@
+def toplama(a,b):
+    return a+b
+def cikarma(a,b):
+    return a-b
+def carpma(a,b):
+    return a*b
+def bolme(a,b):
+    if b==0:
+        return "TANIMSIZ"
+    return a/b
+print("SAYİLARİ GİRİNİZ:")
+a=input("A SAYİSİNİ GİR: ")
+b=input("B SAYİSİNİ GİR: ")
+print(toplama(int(a),int(b)))
+print(cikarma(int(a),int(b)))
+print(carpma(int(a),int(b)))
+print(bolme(int(a),int(b)))
+    
