@@ -1,0 +1,33 @@
+from statistics import mode
+sayiListesi=[]
+def ortalama(liste):
+    toplam=0
+    for i in range(len(liste)):
+        toplam +=liste[i]
+        ortalama=toplam/len(liste)
+    return ortalama
+    
+def modBulma(liste):
+    return mode(liste)
+
+def medyanBulma(liste):
+    liste.sort()
+    print(liste)
+    if(len(liste)%2==0):
+        print(int(len(liste)//2))
+        toplam=liste[int(len(liste)/2)]+liste[int(len(liste)/2)-1]
+        medyan=toplam/2
+    else:
+        print(int(len(liste)//2))
+        medyan=liste[int(len(liste)//2)]
+    return medyan
+while True:
+    sayi=int(input("bir sayi giriniz: "))
+    if sayi==0:
+        print(sayiListesi)
+        print("sayilarin ortalamasi:",ortalama(sayiListesi))
+        print("sayilarin modu:",modBulma(sayiListesi))
+        print("sayilarin medyani:",medyanBulma(sayiListesi))
+        break
+    else:
+        sayiListesi.append(sayi)
