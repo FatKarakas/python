@@ -1,0 +1,10 @@
+cinsiyet = input("lütfen cinsiyetinizi giriniz: ")
+boy = int(input("lütfen boyunuzu giriniz: "))
+
+if (cinsiyet=="kadin" or cinsiyet=="erkek") and (boy>20 and boy<300):
+    if (cinsiyet=="kadin" and boy>=160) or (cinsiyet=="erkek" and boy>=170):
+        print("ön sağlık kontrolünden geçtiniz")
+    else:
+        print("ön sağlık kontrolünden geçemediniz")
+else:
+    print("cinsiyet ya da boy bilgisini tekrar giriniz")
